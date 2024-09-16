@@ -18,7 +18,6 @@ describe('GET /api/test', () => {
   });
 });
 
-//Descomentado o teste abaixo para teste PR
 describe('GET /api/test', () => {
   it('should return a test message', async () => {
     const res = await request(app).get('/api/test-2');
