@@ -26,4 +26,11 @@ describe("GET /api/test", () => {
   });
 });
 
+describe("Test github", () => {
+  it("Should return 4 in the sum of 2 + 2", () => {
+    const num = 2 + 2;
+    expect(num).toBe(4);
+  });
+});
+
 jest.setTimeout(30000);
